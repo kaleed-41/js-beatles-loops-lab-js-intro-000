@@ -1,10 +1,10 @@
 // add solution here
-var plays = [];
+var array = [];
 function theBeatlesPlay(musicians, instruments){
   for(let i = 0; i < musicians.length; i++){
-    plays.push(`${musicians[i]} plays ${instruments[i]}`);
+    array.push(`${musicians[i]} plays ${instruments[i]}`);
   }
-  return plays;
+  return array;
 }
 
 const facts = [
@@ -15,5 +15,5 @@ const facts = [
 ];
 
 function johnLennonFacts(facts){
-
+  
 }
